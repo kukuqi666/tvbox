@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Links Card Style</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+
+  .copy-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+  }
+
+  .copy-btn:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+  <!-- Card 1 -->
+  <div class="card">
+    <div class="container">
+      <h4><a href="https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/js.json">js.json</a></h4>
+      <button class="copy-btn" onclick="copyToClipboard('https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/js.json')">Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="card">
+    <div class="container">
+      <h4><a href="https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/0827.json">0827.json</a></h4>
+      <button class="copy-btn" onclick="copyToClipboard('https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/0827.json')">Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="card">
+    <div class="container">
+      <h4><a href="https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/gaoyun.json">gaoyun.json</a></h4>
+      <button class="copy-btn" onclick="copyToClipboard('https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/gaoyun.json')">Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="card">
+    <div class="container">
+      <h4><a href="https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/jiqiao.json">jiqiao.json</a></h4>
+      <button class="copy-btn" onclick="copyToClipboard('https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/jiqiao.json')">Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Card 5 -->
+  <div class="card">
+    <div class="container">
+      <h4><a href="https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/top98.json">top98.json</a></h4>
+      <button class="copy-btn" onclick="copyToClipboard('https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/top98.json')">Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Card 6 -->
+  <div class="card">
+    <div class="container">
+      <h4><a href="https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/tv4k.json">tv4k.json</a></h4>
+      <button class="copy-btn" onclick="copyToClipboard('https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/tv4k.json')">Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Card 7 -->
+  <div class="card">
+    <div class="container">
+      <h4><a href="https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/tvbox.json">tvbox.json</a></h4>
+      <button class="copy-btn" onclick="copyToClipboard('https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/tvbox.json')">Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Card 8 -->
+  <div class="card">
+    <div class="container">
+      <h4><a href="https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/ysc.json">ysc.json</a></h4>
+      <button class="copy-btn" onclick="copyToClipboard('https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/ysc.json')">Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Card 9 -->
+  <div class="card">
+    <div class="container">
+      <h4><a href="https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/XYQ.json">XYQ.json</a></h4>
+      <button class="copy-btn" onclick="copyToClipboard('https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/XYQ.json')">Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Card 10 -->
+  <div class="card">
+    <div class="container">
+      <h4><a href="https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/XYQTVBox.json">XYQTVBox.json</a></h4>
+      <button class="copy-btn" onclick="copyToClipboard('https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/XYQTVBox.json')">Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Card 11 -->
+  <div class="card">
+    <div class="container">
+      <h4><a href="https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/PG-one.json">PG-one.json</a></h4>
+      <button class="copy-btn" onclick="copyToClipboard('https://ghp.ci/raw.githubusercontent.com/kukuqi666/tvbox/main/PG-one.json')">Copy Link</button>
+    </div>
+  </div>
+</div>
+
+<script>
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(function() {
+    alert('Link copied to clipboard');
+  }, function(err) {
+    alert('Failed to copy link: ' + err);
+  });
+}
+</script>
+
+</body>
+</html>
